@@ -1,10 +1,63 @@
 /* Inter fonts import - 
 font-weight:: 400/500;
 font-family: 'Inter', sans-serif; */
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Roboto:wght@700;900&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Roboto:wght@700;900&family=Yellowtail&display=swap");
 /* Cabin fonts import - 
 font-weight: 600;
 font-family: 'Cabin', sans-serif;
 */
-  @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Poppins:wght@600;700&family=Roboto:wght@700;900&family=Yellowtail&display=swap');
-  
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Poppins:wght@600;700&family=Roboto:wght@700;900&family=Yellowtail&display=swap");
+
+/* fonts style */
+.interFt,
+select {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #37393f;
+}
+
+.cabinFt {
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  text-transform: capitalize;
+}
+
+/* Header Section*/
+.collar_header {
+  width: 100%;
+  max-width: 76.25rem;
+  height: 65px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 52px;
+}
+.logo {
+  margin-right: 195px;
+}
+.nav_links {
+  display: flex;
+}
+
+.nav_links ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav_links a, select {
+  margin-right: 30px;
+}
+
+.navigation_container {
+  display: flex;
+  gap: 40px;
+}
+
+.consulting_btn {
+  padding: 21px 35px 22px 35px;
+  border: none;
+  background-color: #6b77e5;
+}
