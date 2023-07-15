@@ -1,55 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WhiteCollar Team</title>
-    <!-- Reset Stylesheet -->
-    <link rel="stylesheet" href="../style/reset.css" />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="../style/style.css" />
-    <!-- Poppins google fonts link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhiteCollar Team</title>
+  <!-- Reset Stylesheet -->
+  <link rel="stylesheet" href="../style/reset.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="../style/style.css" />
+  <!-- Poppins google fonts link
          font-family: 'Poppins', sans-serif;  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Poppins:wght@600;700&family=Roboto:wght@700;900&family=Yellowtail&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header Section - navigation links / consulting btn -->
-    <header class="collar_header">
-      <img
-        class="logo"
-        src="../image/Logo-whiteCollar.svg"
-        alt="WhiteCollar Logo"
-      />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Poppins:wght@600;700&family=Roboto:wght@700;900&family=Yellowtail&display=swap"
+    rel="stylesheet" />
+</head>
 
-      <nav class="nav_links">
-        <div class="navigation_container">
-          <ul>
-            <li><a class="interFt" href="#">Home</a></li>
-            <li><a class="interFt" href="#">About us</a></li>
-            <li>
-              <select id="pages" class="interFt">
-                <option value="pages">Pages</option>
-                <option value="pages">Pages 1</option>
-              </select>
-            </li>
-            <li><a class="interFt" href="#">Services</a></li>
-            <li><a class="interFt" href="#">Blog</a></li>
-            <li><a class="interFt" href="#">Contact us</a></li>
-          </ul>
-          <button class="consulting_btn cabinFt">Get Consulting</button>
+<body>
+  <!-- Header Section - navigation links / consulting btn -->
+  <header class="collar_header display">
+    <img class="logo" src="../image/Logo-whiteCollar.svg" alt="WhiteCollar Logo" />
+
+    <!-- Navigation links -->
+    <nav class="nav_links">
+      <div class="navigation_container">
+        <ul>
+          <li><a class="interFt" href="#">Home</a></li>
+          <li><a class="interFt" href="#">About us</a></li>
+          <li>
+            <select id="pages" class="interFt">
+              <option value="pages">Pages</option>
+              <option value="pages">Pages 1</option>
+            </select>
+          </li>
+          <li><a class="interFt" href="#">Services</a></li>
+          <li><a class="interFt" href="#">Blog</a></li>
+          <li><a class="interFt" href="#">Contact us</a></li>
+        </ul>
+        <button class="consulting_btn cabinFt">Get Consulting</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Work Process Section -->
+    <section class="work_section display">
+      <!-- work heading -->
+      <div class="process_block">
+        <h3 class="work_heading interFt">Work Process</h3>
+        <h2 class="work_heading popinsFt">How We Work</h2>
+      </div>
+
+      <!-- Info Content 1 -->
+      <div class="info_block display ">
+        <div class="info_content">
+          <h3 class="content_heading popinsFt">Make Appointment</h3>
+          <p class="interFt content_description">
+            Leverage agile frameworks provide synopsishigh level overviews
+            value proposition.
+          </p>
+          <span class="testimonaials interFt">Testimonials</span>
+          <div class="bg_icon">
+            <img src="../image/date-Icon.svg" alt="Testimonials icon" />
+          </div>
         </div>
-      </nav>
-    </header>
+        <!-- Info Content 2 -->
+        <div class="info_content">
+          <h3 class="content_heading popinsFt">Consultation</h3>
+          <p class="interFt content_description">
+            Leverage agile frameworks provide synopsishigh level overviews
+            value proposition.
+          </p>
+          <span class="testimonaials interFt">Testimonials</span>
+          <div class="bg_icon">
+            <img src="../image/quiz-Icon.svg" alt="Testimonials icon" />
+          </div>
+        </div>
+        <!-- Info Content 3 -->
+        <div class="info_content">
+          <h3 class="content_heading popinsFt">Enjoy the Service</h3>
+          <p class="interFt content_description">
+            Leverage agile frameworks provide synopsishigh level overviews
+            value proposition.
+          </p>
+          <span class="testimonaials interFt">Testimonials</span>
+          <div class="bg_icon">
+            <img src="../image/safety-Icon.svg" alt="Testimonials icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <main>
-      <section></section>
-    </main>
+  <footer></footer>
+</body>
 
-    <footer></footer>
-  </body>
 </html>

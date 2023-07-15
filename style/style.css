@@ -8,7 +8,7 @@ font-family: 'Cabin', sans-serif;
 */
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;500&family=Noto+Sans+Georgian:wght@200;300;400&family=Open+Sans:wght@400;500;800&family=Poppins:wght@600;700&family=Roboto:wght@700;900&family=Yellowtail&display=swap");
 
-/* fonts style */
+/* Typography style */
 .interFt,
 select {
   font-family: "Inter", sans-serif;
@@ -18,36 +18,48 @@ select {
 }
 
 .cabinFt {
-  color: #FFF;
+  font-family: "Cabin", sans-serif;
   font-size: 18px;
-  font-family: 'Cabin', sans-serif;
   text-transform: capitalize;
+  color: #fff;
+}
+
+.popinsFt {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #37393f;
+}
+/* display stuff */
+.display {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Header Section*/
-.collar_header {
+.collar_header,
+.work_section {
+  align-items: center;
   width: 100%;
   max-width: 76.25rem;
   height: 65px;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: 52px;
 }
 .logo {
   margin-right: 195px;
 }
-.nav_links {
+.nav_links,
+.nav_links ul {
   display: flex;
 }
 
 .nav_links ul {
-  display: flex;
   align-items: center;
 }
 
-.nav_links a, select {
+.nav_links a,
+select {
   margin-right: 30px;
 }
 
@@ -60,4 +72,57 @@ select {
   padding: 21px 35px 22px 35px;
   border: none;
   background-color: #6b77e5;
+}
+
+/* Work Process Section */
+
+.work_section {
+  height: 510px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 136px;
+}
+
+.process_block {
+  width: 283px;
+  margin: 0 auto;
+}
+
+.work_heading {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.info_block {
+  width: 1220px;
+  height: 383px;
+  margin-top: 41px;
+}
+
+.info_content {
+  width: 386px;
+  padding: 58px 43px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.content_heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.content_description {
+  margin: 16px 0 37px 0;
+  color: #7d7d7d;
+  line-height: 146.187%;
+}
+
+.testimonaials {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #6b77e5;
+}
+
+.bg_icon {
+  margin: 10px auto;
 }
