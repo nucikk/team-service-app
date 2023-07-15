@@ -15,6 +15,7 @@ select {
   font-size: 18px;
   font-weight: 400;
   color: #37393f;
+  line-height: 26.314px ; 
 }
 
 .cabinFt {
@@ -29,6 +30,8 @@ select {
   font-size: 40px;
   font-weight: 700;
   color: #37393f;
+  line-height: 48.4px;
+  
 }
 /* display stuff */
 .display {
@@ -125,4 +128,31 @@ select {
 
 .bg_icon {
   margin: 10px auto;
+}
+/* Banner Section */
+.banner_section {
+  position: relative;
+  margin: 60px 0 130px 0;
+  text-align: center;
+}
+
+.banner_section img {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.banner_content {
+  width: 511px;
+  height: 271px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.presentation_title {
+  margin: 16px 21px;
+}
+.play_btn {
+  margin-top:47px;
 }
